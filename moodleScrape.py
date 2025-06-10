@@ -2,10 +2,10 @@ import selenium
 import requests
 import selenium.webdriver
 import json
+import os
 
-API_KEY = "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"
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-TEST_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfz3bbNhn17DITvuRMElbO1O6U1kOiFy1EyPebtO3Lz8jgRfg/viewform?usp=header"
+API_KEY =  os.environ.get('Scrape_APIKEY')
+API_URL =  os.environ.get('Scrape_APIURL')
 
 
 def main():
