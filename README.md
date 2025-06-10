@@ -8,7 +8,7 @@
 - Sends scraped data to a remote API
 - Receives and handles API responses with answers to the form questions
 
-## Requirements
+## Requirements And Use
 some of the steps can be skipped
 1. **Have python installed**
 
